@@ -1,0 +1,150 @@
+html, body {
+    margin:0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#main-flex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+a {
+    color: rgb(63, 171, 255);
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+h1 {
+    font-size: 28px;
+    margin-top: 0;
+    font-weight: normal;
+}
+
+label {
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.label-holder {
+    margin-bottom: 10px;
+}
+
+#password-label-holder{
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+}
+
+.typed-input {
+    width: 97.4%;
+    margin-bottom: 15px;
+    height: 25px;
+    flex-grow: 1;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+}
+
+#logo {
+    width: 70px;
+    margin-bottom: 5px;
+}
+
+#card {
+    outline:1px solid lightgrey;
+    width: 275px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+}
+
+* {
+    outline-color: transparent;
+    transition: outline-color 0.7s ease-out;
+}
+
+*:focus-visible {
+    outline-color: #FF9900;
+}
+
+button {
+    width: 100%;
+    height: 30px;
+    border-radius: 5px;
+    border-width: 1px;
+}
+
+#sign-in {
+    background-image: linear-gradient(rgba(240, 193, 75, 0.444),#e5b744);
+    background-color:white;
+}
+
+#new-account {
+    background-image: linear-gradient(#f4f4f4c3, #f4f4f4);
+    background-color: white;
+}
+
+#break{
+    display: flex;
+    justify-content: center;
+    color:gray;
+    font-size: 10px;
+    padding:auto 30px;
+}
+
+#disclaimer {
+    font-size: 12px;
+    line-height: 2;
+}
+
+.checkbox-holder {
+    display: flex;
+    align-items: center;
+}
+
+.checkbox-holder label {
+    font-weight: 200;
+    font-size: 13px;
+}
+
+#keep-signed-in {
+    background-color: #FF9900;
+    appearance: none;
+    font: inherit;
+    color: currentColor;
+    width: 11px;
+    height: 11px;
+    border: 1px solid darkgray;
+    border-radius: 2px;
+    background-image: linear-gradient(#f4f4f4c3, #f4f4f4);
+    background-color: white;
+}
+
+#keep-signed-in:checked{
+    
+    background-image: none;
+    background: none;
+    background-color: #FF9900;
+}
+
+.spacer {
+    width: 15px;
+    height: 1px;
+    outline: none;
+}
+
+#new-to-choam {
+    margin: auto 10px;
+}
+
+hr {
+    flex-grow: 1;
+    border: none;
+    background-color: lightgrey;
+    height: 0.5px;
+}
